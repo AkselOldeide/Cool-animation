@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <div id="animated-box">
+           <h1>I will fucking harvest your soul</h1> 
+           <img src="./assets/smiley.png" alt="">
+        </div>
+        
+    </body>
+    
+    
+    <style>
+        body{
+        animation: blink 0.1s linear infinite;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    h1{
+        font-size: 70px;
+    }
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+      @keyframes blink {
+        0% {
+            background-color: red;
+            color: rgb(17, 0, 255);
+        }
+    
+        20% {
+            background-color: rgb(0, 212, 21);
+            color: red;
+        }
+    
+        40% {
+            background-color: rgb(17, 0, 255);
+            color:rgb(0, 212, 21) ;
+        }
+    
+        60% {
+            background-color: rgb(208, 212, 0);
+            color:rgb(0, 212, 71) ;
+        }
+    
+        80% {
+            background-color: rgb(212, 0, 166);
+            color: rgb(208, 212, 0);
+        }
+    
+        100% {
+            background-color: rgb(0, 212, 71);
+            color: rgb(0, 212, 21);
+        }
+    
+        
+      }
+    </style>
+</body>
+</html>
