@@ -1,0 +1,31 @@
+body{
+    height: 100px;
+    width: 100px;
+    animation: blink 0.1s linear infinite;
+}
+
+  @keyframes blink {
+    0% {
+      background-color: red;
+    }
+
+    20% {
+      background-color: rgb(0, 212, 21)
+    }
+
+    40% {
+    background-color: rgb(17, 0, 255);
+    }
+
+    60% {
+    background-color: rgb(208, 212, 0)
+    }
+
+    80% {
+        background-color: rgb(212, 0, 166)
+    }
+
+    100% {
+        background-color: rgb(0, 212, 71)
+    }
+  }
